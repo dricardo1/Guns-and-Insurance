@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One:wght@400;500;700&&family=Rye:wght@400;500;700&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/* Font Awesome SVG icons (code-solid, magic-solid, pencil-ruler-solid) are licensed under the Creative Commons Attribution 4.0 International license: https://fontawesome.com/license */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: aliceblue;
+  font-size: 1em;
+  line-height: 1.4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #4e1311; */
+  background-color: #270908;
+  scroll-behavior: smooth; /* Thanks Chris Coyier @ CSS-tricks.com */
+}
+
+/*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+
+::-moz-selection {
+  background: #fcfcfc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #ffffff;
+  text-shadow: none;
+}
+
+/*
+   * A better looking default horizontal rule
+   */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+   * Remove default fieldset styles.
+   */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+   * Allow only vertical resizing of textareas.
+   */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #270908;
+  color: aliceblue;
+  font-family: 'Kameron','Libre Baskerville', serif;
+  background: url("../img/hero.jpg") top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Rye", "Germania One", cursive;
+  color: aliceblue; 
+}
+
+p {
+  font-family: 'Kameron','Libre Baskerville', serif;
+  font-size: 1.25em;
+  color: aliceblue;
+}
+
+.gold {
+  color: aliceblue;
+}
+
+.accent-color,
+.card-text {
+  color: #33251f; /* bistre */
+}
+
+.accent-text,
+h3.card-title a,
+div.more a {
+  color: #33251f;
+  font-size: 1.5em;
+}
+
+.container a,
+.nav-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav-bg-color {
+  background: #222;
+}
+
+.btn-warning {
+  background-color: aliceblue !important;
+  color: #222 !important;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 9px;
+}
+
+.btn-warning:hover {
+  background-color: goldenrod !important;
+  text-decoration: none;
+  color: #222 !important;
+}
+
+#mainNav {
+  margin-right: 1em;
+}
+
+.navbar-brand {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.nav-item {
+  font-size: 1.5em;
+}
+
+.fa-bars {
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+#hero {
+  display: table;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.hero-logo {
+  margin: -3.5em auto 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hero-logo h1 {
+  font-size: 6em;
+  margin: -.3em 0 0.1em 0;
+  text-align: center;
+}
+
+.hero-logo h2 {
+  margin-top: -.1em;
+  padding-bottom: .9em;
+  text-align: center;
+}
+
+#hero .hero-container {
+  display: table-cell;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.cta {
+  padding-bottom: 3em;
+}
+
+a.menu-link {
+  color: aliceblue;
+  font-size: 1.5em;
+  margin: 3em;
+}
+
+#menu {
+  padding: none !important;
+}
+
+#contact {
+  width: 100%;
+  height: auto;
+  background-color: #222;
+  background-image: url("../img/rider-cropped.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
+}
+
+#contact-margin {
+  margin: 2em 0 2em 20em;
+}
+
+#bottom-margin {
+  margin: 2em 5em;
+}
+
+
+.contact-form {
+  background-color: #270908;
+  width: 25vw;
+  height: auto;
+  padding: 2em;
+  border-radius: 6px;
+  margin: 0 0 0 17em !important;
+  font-weight: normal;
+  letter-spacing: .1rem;
+}
+
+.submit-btn {
+  border-radius: 5px;
+  font-family: "Rye";
+}
+
+.hidden {
+  display: none;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+.input-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  outline: none;
+  background: none;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  padding: 0.5em;
+  color: inherit;
+  border-radius: 4px;
+}
+
+.input-group input:focus {
+  border-color: #fff;
+}
+
+#footer-h1 {
+  margin-top: 0;
+}
+
+#footer-p {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+#image {
+  width: 100%;
+  height: 100vh;
+  margin: 8vh auto 0 auto;
+  background-color: #222;
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
+}
+
+.image-section {
+  margin-top: 10vh;
+  padding: 2em 0 0 0;
+}
+
+.card-img {
+  width: calc(100% + 10px);
+  margin: -2px 0px 0px -6px;
+  overflow: hidden;
+}
+
+.card {
+  margin-bottom: 10vh !important;
+}
+
+#contact.section-title {
+  margin: 10vh 0 5vh 2vh;
+}
+
+#contact div.container {
+  padding: 3vw;
+}
+
+.donar_dev {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover, a.donar_dev:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+h2#main-title {
+  font-size: 4em;
+  font-family: "Rye", "Germania One", cursive;
+  padding-top: 3em;
+}
+
+.section-title p {
+  font-size: 1.5em;
+  color: aliceblue;
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+#contact-padding p {
+  font-size: 1em;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+.image-section h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: aliceblue;
+  opacity: 0.9;
+  padding: 2em 0 2em 4em;
+  text-align: center;
+}
+
+.section-title div.row {
+  padding-left: 3vw;
+}
+
+#contact-section {
+  font-size: 2em;
+  margin: 1em auto 0 auto !important;
+  font-family: "Germania One", "Lato", sans-serif;
+  color: aliceblue;
+}
+
+#contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
+  margin-top: -4vh;
+}
+
+div.more a:hover {
+  color: #ccc;
+}
+
+#mainMessage {
+  /* font-size: 2rem;
+  margin: 1.5em;
+  padding-bottom: 3em; */
+  font-family: 'Kameron','Libre Baskerville', serif;
+}
+
+div.contact-title h2 {
+  font-size: 4em;
+  font-family: "Rye", "Germania One", cursive;
+}
+
+.contact-title p {
+  font-size: 0.9em;
+}
+
+#contact-heading.contact-h1 {
+  font-size: 4em !important;
+  margin-bottom: .25em;
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 2rem !important;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+
+  }
+
+  .hero-logo h1 {
+    font-size: 3em;
+    margin: auto;
+  }
+
+  .hero-logo h2 {
+    /* margin-top: -.1em; */
+    /* padding-bottom: .9em; */
+    text-align: center;
+    margin-bottom: .5em;
+    font-size: 1.5rem;
+}
+
+h2#main-title {
+  font-size: 3em;
+  padding-top: 1em;
+}
+
+#contact-margin {
+  margin: 0 1em;
+  /* width: auto; */
+}
+
+.contact-form {
+  background-color: #270908;
+  width: 25vw;
+  height: auto;
+  padding: 2em;
+  border-radius: 6px;
+  margin: 0 !important;
+  font-weight: normal;
+  letter-spacing: .1rem;
+}
+
+#bottom-margin {
+  margin: 1em !important;
+}
+
+#footer-p {
+  font-size: .7em !important;
+  font-weight: normal;
+}
+
+  .navbar-brand img {
+    margin-right: 0.25rem;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+
+  #main-navbar {
+    margin-top: 0.3em;
+  }
+
+  .logo-img {
+    width: 62px;
+    height: 62px;
+  }
+
+  #contact div.container {
+    margin-top: 8vh;
+  }
+
+  #donar {
+    font-size: 0.5em;
+  }
+}
+
+@media only screen (min-width: 370px) and (max-width: 700px) {
+
+}
