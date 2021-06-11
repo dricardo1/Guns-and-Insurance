@@ -525,14 +525,13 @@ div.contact-title h2 {
   }
 
   .navbar-brand {
-    font-weight: bold;
-    font-size: 1em;
+    font-size: .75em;
     margin-top: 0.5em;
   }
 
-  #main-navbar {
+  /* #main-navbar {
     margin-top: 0.3em;
-  }
+  } */
 
   .logo-img {
     width: 62px;
