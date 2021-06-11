@@ -474,7 +474,7 @@ h2#main-title {
 
 .contact-form {
   background-color: #270908;
-  width: 95%;
+  width: 95% !important;
   height: auto;
   padding: 2em;
   border-radius: 6px;
