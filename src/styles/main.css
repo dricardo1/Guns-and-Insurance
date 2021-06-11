@@ -261,11 +261,11 @@ a.menu-link {
 
 .contact-form {
   background-color: #270908;
-  width: 25vw;
+  width: 50% !important;
   height: auto;
   padding: 2em;
   border-radius: 6px;
-  margin: 0 0 0 17em !important;
+  margin: 0 0 0 14em !important;
   font-weight: normal;
   letter-spacing: .1rem;
 }
@@ -441,6 +441,21 @@ div.contact-title h2 {
 .mb-5,
 .my-5 {
   margin-bottom: 2rem !important;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media only screen (min-device-width: 300px) and (max-device-width: 800px) {
+  .contact-form {
+    background-color: #270908;
+    width: 95% !important;
+    height: auto;
+    padding: 2em;
+    border-radius: 6px;
+    margin: auto !important;
+    font-weight: 400;
+    letter-spacing: .1rem;
+  }
 }
 
 @media only screen and (max-device-width: 1024px) {
