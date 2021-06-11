@@ -118,7 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/text.js":[function(require,module,exports) {
-var messageArray = ["Serving Gun Shops, Gunsmiths, Instructors, Ranges & More", "A Preferred Insurance Provider to the Firearms Community", "Serving Gun Shops, Gunsmiths, Instructors, Ranges & More", "A Preferred Insurance Provider to the Firearms Community"];
+var messageArray = ["Serving Gun Shops, Gunsmiths, Instructors, Ranges & More", "A Preferred Insurance Provider to the Virginia Firearms Community", "Serving Gun Shops, Gunsmiths, Instructors, Ranges & More", "A Preferred Insurance Provider to the Virginia Firearms Community"];
 var messageIndex = 0;
 
 function changeMessage() {
@@ -164,7 +164,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52796" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53053" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

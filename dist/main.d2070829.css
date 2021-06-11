@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Germania+One:wght@400;500;700&&family=Rye:wght@400;500;700&&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Germania+One:wght@400;500;700&&family=Rye:wght@400;500;700&&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kameron&family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
@@ -106,7 +106,7 @@ body {
   height: 100vh;
   background-color: #270908;
   color: aliceblue;
-  font-family: 'Kameron','Libre Baskerville', serif;
+  font-family: "Kameron", "Libre Baskerville", serif;
   background: url("/hero.3ad8264a.jpg") top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -119,11 +119,11 @@ h3,
 h4,
 nav {
   font-family: "Rye", "Germania One", cursive;
-  color: aliceblue; 
+  color: aliceblue;
 }
 
 p {
-  font-family: 'Kameron','Libre Baskerville', serif;
+  font-family: "Kameron", "Libre Baskerville", serif;
   font-size: 1.25em;
   color: aliceblue;
 }
@@ -194,7 +194,6 @@ div.more a {
   display: table;
   width: 100%;
   height: 100vh;
-
 }
 
 .hero-logo {
@@ -205,13 +204,13 @@ div.more a {
 
 .hero-logo h1 {
   font-size: 6em;
-  margin: -.3em 0 0.1em 0;
+  margin: -0.3em 0 0.1em 0;
   text-align: center;
 }
 
 .hero-logo h2 {
-  margin-top: -.1em;
-  padding-bottom: .9em;
+  margin-top: -0.1em;
+  padding-bottom: 0.9em;
   text-align: center;
 }
 
@@ -258,7 +257,6 @@ a.menu-link {
   margin: 2em 5em;
 }
 
-
 .contact-form {
   background-color: #270908;
   width: 50% !important;
@@ -267,7 +265,7 @@ a.menu-link {
   border-radius: 6px;
   margin: 0 0 0 14em !important;
   font-weight: normal;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .submit-btn {
@@ -363,7 +361,8 @@ a.menu-link {
   text-decoration: none;
 }
 
-a:hover, a.donar_dev:hover {
+a:hover,
+a.donar_dev:hover {
   color: #ccc;
   text-decoration: none;
 }
@@ -379,6 +378,20 @@ h2#main-title {
   color: aliceblue;
   padding: 0 0 2em 0;
   text-align: center;
+}
+
+.logo-p {
+  font-size: 3em;
+  font-family: "Rye";
+  margin: 3em 0 1rem 0;
+  letter-spacing: -0.5rem;
+}
+
+.section-title p.logo-p {
+  font-size: 6em;
+  font-family: "Rye";
+  margin: 1em 0 -1em 0;
+  letter-spacing: -0.5rem;
 }
 
 #contact-padding p {
@@ -421,7 +434,7 @@ div.more a:hover {
   /* font-size: 2rem;
   margin: 1.5em;
   padding-bottom: 3em; */
-  font-family: 'Kameron','Libre Baskerville', serif;
+  font-family: "Kameron", "Libre Baskerville", serif;
 }
 
 div.contact-title h2 {
@@ -435,7 +448,7 @@ div.contact-title h2 {
 
 #contact-heading.contact-h1 {
   font-size: 4em !important;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 }
 
 .mb-5,
@@ -454,7 +467,7 @@ div.contact-title h2 {
     border-radius: 6px;
     margin: auto !important;
     font-weight: 400;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   }
 }
 
@@ -473,39 +486,39 @@ div.contact-title h2 {
     /* margin-top: -.1em; */
     /* padding-bottom: .9em; */
     text-align: center;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     font-size: 1.5rem;
-}
+  }
 
-h2#main-title {
-  font-size: 3em;
-  padding-top: 1em;
-}
+  h2#main-title {
+    font-size: 3em;
+    padding-top: 1em;
+  }
 
-#contact-margin {
-  margin: 0 1em;
-  /* width: auto; */
-}
+  #contact-margin {
+    margin: 0 1em;
+    /* width: auto; */
+  }
 
-.contact-form {
-  background-color: #270908;
-  width: 95% !important;
-  height: auto;
-  padding: 2em;
-  border-radius: 6px;
-  margin: auto !important;
-  font-weight: 400;
-  letter-spacing: .1rem;
-}
+  .contact-form {
+    background-color: #270908;
+    width: 95% !important;
+    height: auto;
+    padding: 2em;
+    border-radius: 6px;
+    margin: auto !important;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
 
-#bottom-margin {
-  margin: 1em !important;
-}
+  #bottom-margin {
+    margin: 1em !important;
+  }
 
-#footer-p {
-  font-size: .7em !important;
-  font-weight: normal;
-}
+  #footer-p {
+    font-size: 0.7em !important;
+    font-weight: normal;
+  }
 
   .navbar-brand img {
     margin-right: 0.25rem;
