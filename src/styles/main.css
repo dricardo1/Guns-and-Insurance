@@ -204,7 +204,7 @@ div.more a {
 
 .hero-logo h1 {
   font-size: 6em;
-  margin: -0.3em 0 0.1em 0;
+  margin: 2em 0 0.5em 0;
   text-align: center;
 }
 
@@ -352,9 +352,9 @@ a.menu-link {
   margin: 10vh 0 5vh 2vh;
 }
 
-#contact div.container {
+/* #contact div.container {
   padding: 3vw;
-}
+} */
 
 .donar_dev {
   color: aliceblue;
@@ -390,7 +390,8 @@ h2#main-title {
 .section-title p.logo-p {
   font-size: 6em;
   font-family: "Rye";
-  margin: 1em 0 -1em 0;
+  margin: 0;
+  padding: 0 0 2rem 0;
   letter-spacing: -0.5rem;
 }
 
@@ -456,6 +457,10 @@ div.contact-title h2 {
   margin-bottom: 2rem !important;
 }
 
+#hero-logo-img {
+  display: none;
+}
+
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-device-width: 800px) {
@@ -479,7 +484,7 @@ div.contact-title h2 {
 
   .hero-logo h1 {
     font-size: 3em;
-    margin: auto;
+    margin: 2.5em 0 1em 0;
   }
 
   .hero-logo h2 {
@@ -491,7 +496,7 @@ div.contact-title h2 {
   }
 
   h2#main-title {
-    font-size: 3em;
+    font-size: 2.5em;
     padding-top: 1em;
   }
 
@@ -525,13 +530,13 @@ div.contact-title h2 {
   }
 
   .navbar-brand {
-    font-size: .75em;
-    margin-top: 0.5em;
+    font-size: 0.75em;
+    margin-top: 1rem;
   }
 
-  /* #main-navbar {
-    margin-top: 0.3em;
-  } */
+  #main-navbar {
+    margin-top: 0.5em;
+  }
 
   .logo-img {
     width: 62px;
@@ -542,7 +547,22 @@ div.contact-title h2 {
     margin-top: 8vh;
   }
 
-  #donar {
-    font-size: 0.5em;
+  .hero-logo {
+    margin: -3.5em 0 6em 0;
+    max-width: 100%;
+    text-align: center;
   }
+
+  .hero-logo h3 {
+    margin-bottom: 6em;
+  }
+
+  #navbar-toggler {
+    margin-bottom: 5em;
+  }
+
+  /* .container {
+    margin: 0 !important;
+    padding: 0 !important
+  } */
 }
