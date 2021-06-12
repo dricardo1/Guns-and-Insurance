@@ -318,6 +318,7 @@ a.menu-link {
 #footer-p {
   font-size: 1em;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 #image {
@@ -366,7 +367,7 @@ a.donar_dev:hover {
 h2#main-title {
   font-size: 4em;
   font-family: "Rye", "Germania One", cursive;
-  padding-top: 3em;
+  padding: 3em 0 1em;
 }
 
 .section-title p {
