@@ -155,7 +155,7 @@ p {
 h3.card-title, #body > section > .card-body > h3.card-title,
 div.more a {
   color: #33251f;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .container a,
@@ -676,7 +676,7 @@ div.contact-title h2 {
 
   .accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
     color: #33251f;
-    font-size: 2em;
+    font-size: 1.8em;
   }
-  
+
 }
