@@ -491,40 +491,6 @@ div.contact-title h2 {
 ******************************************************************
 ******************************************************************/
 
-@media screen and (max-device-width: 800px) {
-
-  h2#main-title {
-    font-size: 1.75em;
-    padding: 0 .5em 1em;
-  }
-
-  .contact-form {
-    background-color: #270908;
-    width: 95% !important;
-    height: auto;
-    padding: 2em;
-    border-radius: 6px;
-    margin: auto !important;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-  }
-
-  .section-title p {
-    font-size: 1em;
-    color: aliceblue;
-    padding: 0 0 3em 0;
-    text-align: center;
-  }
-
-  .section-title p.logo-p {
-    font-size: 4em;
-    font-family: "Rye";
-    margin: 0;
-    padding: 0 0 2rem 0;
-    letter-spacing: -0.5rem;
-  }
-}
-
 @media screen and (max-device-width: 1024px) {
   #hero {
     width: 100%;
@@ -664,5 +630,47 @@ div.contact-title h2 {
     margin: 0;
     padding: 0 0 2rem 0;
     letter-spacing: -0.5rem;
- }
+  }
+}
+
+@media screen and (max-device-width: 800px) {
+
+  h2#main-title {
+    font-size: 1.75em;
+    padding: 0 .5em 1em;
+  }
+
+  .contact-form {
+    background-color: #270908;
+    width: 95% !important;
+    height: auto;
+    padding: 2em;
+    border-radius: 6px;
+    margin: auto !important;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
+
+  .section-title p {
+    font-size: 1em;
+    color: aliceblue;
+    padding: 0 0 3em 0;
+    text-align: center;
+  }
+
+  .section-title p.logo-p {
+    font-size: 4em;
+    font-family: "Rye";
+    margin: 0;
+    padding: 0 0 2rem 0;
+    letter-spacing: -0.5rem;
+  }
+
+  .section-title > .services-p {
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: .5em 2em;
+    text-align: center;
+    letter-spacing: .025rem;
+  }
 }
