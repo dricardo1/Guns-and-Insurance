@@ -604,7 +604,7 @@ div.contact-title h2 {
 
   .header-section {
     padding: 0px;
-    margin: -10px 0 4em 0;
+    margin: 0 0 4em 0;
     width: 100vw;
     height: 100vh;
 }
@@ -631,7 +631,7 @@ div.contact-title h2 {
 
   .header-section {
     padding: 0;
-    margin: -3px 0 3em 0;
+    margin: 0 0 3em 0;
     width: 100vw;
     height: 70vh;
 }
@@ -650,7 +650,7 @@ div.contact-title h2 {
     }     
     .header-section {
       padding: 0px;
-      margin: -3px 0 4em 0;
+      margin: 0 0 4em 0;
       width: 100vw;
       height: 80vh;
   }
