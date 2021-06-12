@@ -1,7 +1,7 @@
 let messageArray = [
-  "Serving Gun Shops, Gunsmiths, Instructors, Ranges & More",
+  "Serving Virginia's Gun Shops, Gunsmiths, Instructors, Ranges & More",
   "A Preferred Insurance Provider to the Virginia Firearms Community",
-  "Serving Gun Shops, Gunsmiths, Instructors, Ranges & More",
+  "Serving Virginia's Gun Shops, Gunsmiths, Instructors, Ranges & More",
   "A Preferred Insurance Provider to the Virginia Firearms Community",
 ];
 let messageIndex = 0;
