@@ -152,10 +152,10 @@ p {
 }
 
 .accent-text,
-h3.card-title a,
+h3.card-title, #body > section > .card-body > h3.card-title,
 div.more a {
   color: #33251f;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .container a,
@@ -470,7 +470,7 @@ div.contact-title h2 {
 }
 
 .section-title > .footer-p {
-  font-size: .75em;
+  font-size: .6em;
   font-weight: normal;
   text-transform: uppercase;
   padding: .5em 1em;
@@ -673,6 +673,12 @@ div.contact-title h2 {
     text-align: center;
     letter-spacing: .025rem;
   }
+
+  .accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
+    color: #33251f;
+    font-size: 2em;
+  }
+  
 }
 
 /*# sourceMappingURL=/main.d2070829.css.map */

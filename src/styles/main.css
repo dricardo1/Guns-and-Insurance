@@ -152,10 +152,10 @@ p {
 }
 
 .accent-text,
-h3.card-title a,
+h3.card-title, #body > section > .card-body > h3.card-title,
 div.more a {
   color: #33251f;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .container a,
@@ -673,4 +673,10 @@ div.contact-title h2 {
     text-align: center;
     letter-spacing: .025rem;
   }
+
+  .accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
+    color: #33251f;
+    font-size: 2em;
+  }
+  
 }
