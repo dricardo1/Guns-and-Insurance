@@ -111,7 +111,7 @@ body {
 
 .header-section {
   padding: .5em 0 2em 0;
-  margin: 0 0 4em 0; 
+  margin: .5em 0 4em 0; 
   width: 100vw;
   height: auto;
   background-color: #222;
@@ -630,7 +630,7 @@ div.contact-title h2 {
   }
 
   .header-section {
-    padding: 0;
+    padding: .5em 0 0 0;
     margin: .5em 0 3em 0;
     width: 100vw;
     height: 70vh;
@@ -649,7 +649,7 @@ div.contact-title h2 {
       margin: 2.5em 0 .3em 0;
     }     
     .header-section {
-      padding: 0px;
+      padding: .5em 0 0 0;
       margin: .5em 0 4em 0;
       width: 100vw;
       height: 80vh;
