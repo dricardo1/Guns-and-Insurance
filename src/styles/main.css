@@ -338,14 +338,10 @@ a.menu-link {
   padding: 2em 0 0 0;
 }
 
-.card-img {
-  width: calc(100% + 10px);
-  margin: -2px 0px 0px -6px;
-  overflow: hidden;
-}
 
 .card {
   margin-bottom: 10vh !important;
+  min-width: 100% !important;
 }
 
 #contact.section-title {
