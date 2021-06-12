@@ -363,7 +363,7 @@ a.donar_dev:hover {
 }
 
 h2#main-title {
-  font-size: 4em;
+  font-size: 3em;
   font-family: "Rye", "Germania One", cursive;
   padding: 3em 0 1em;
 }
@@ -492,6 +492,12 @@ div.contact-title h2 {
 ******************************************************************/
 
 @media screen and (max-device-width: 800px) {
+
+  h2#main-title {
+    font-size: 1.75em;
+    padding: 0 .5em 1em;
+  }
+
   .contact-form {
     background-color: #270908;
     width: 95% !important;
@@ -516,7 +522,7 @@ div.contact-title h2 {
     margin: 0;
     padding: 0 0 2rem 0;
     letter-spacing: -0.5rem;
-}
+  }
 }
 
 @media screen and (max-device-width: 1024px) {
