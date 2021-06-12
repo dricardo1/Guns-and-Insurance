@@ -603,8 +603,8 @@ div.contact-title h2 {
   }
 
   .header-section {
-    padding: 0px;
-    margin: .5em 0 4em 0;
+    padding: .5em 0 0 0;
+    /* margin: .5em 0 4em 0; */
     width: 100vw;
     height: 100vh;
 }
