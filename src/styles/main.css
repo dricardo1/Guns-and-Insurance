@@ -676,7 +676,12 @@ div.contact-title h2 {
 
   .accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
     color: #33251f;
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
+
+  .card-body {
+    padding: 1em !important;
+    margin: 0 !important;
+}
 
 }
