@@ -422,7 +422,7 @@ h2#main-title {
 #contact-section {
   font-size: 2em;
   margin: 1em auto 0 auto !important;
-  font-family: "Germania One", "Lato", sans-serif;
+  font-family: "Rye", "Germania One", "Lato", sans-serif;
   color: aliceblue;
 }
 
@@ -470,7 +470,7 @@ div.contact-title h2 {
 }
 
 .section-title > .footer-p {
-  font-size: .6em;
+  font-size: .8em;
   font-weight: normal;
   text-transform: uppercase;
   padding: .5em 1em;
