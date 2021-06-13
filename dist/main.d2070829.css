@@ -155,7 +155,7 @@ p {
 h3.card-title, #body > section > .card-body > h3.card-title,
 div.more a {
   color: #33251f;
-  font-size: 2.5em;
+  font-size: 1.8em;
 }
 
 .container a,
@@ -601,6 +601,23 @@ div.contact-title h2 {
     width: 100vw;
     height: 70vh;
 }
+.accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
+  color: #33251f;
+  font-size: 1.4em;
+}
+
+.card-body {
+  padding: 1em !important;
+  margin: 0 !important;
+}
+
+.container {
+width: 100%;
+padding: 0;
+margin-right: auto;
+margin-left: auto;
+}
+
 
 }
 
@@ -630,6 +647,10 @@ div.contact-title h2 {
     margin: 0;
     padding: 0 0 2rem 0;
     letter-spacing: -0.5rem;
+  }
+
+  .card-title {
+    margin: none;
   }
 }
 
@@ -676,12 +697,20 @@ div.contact-title h2 {
 
   .accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
     color: #33251f;
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
 
   .card-body {
     padding: 1em !important;
     margin: 0 !important;
+}
+
+.container {
+  width: 100%;
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 }
