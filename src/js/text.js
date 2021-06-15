@@ -17,4 +17,4 @@ function changeMessage() {
   }
 }
 
-window.onload = () => setInterval(changeMessage, 4000);
+window.onload = () => setInterval(changeMessage, 3500);

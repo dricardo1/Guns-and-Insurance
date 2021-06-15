@@ -110,20 +110,29 @@ body {
 }
 
 .header-section {
-  padding: .5em 0 2em 0;
-  margin: .5em 0 4em 0; 
+  padding: 0.5em 0 2em 0;
+  margin: 0.5em 0 4em 0;
   width: 100vw;
   height: auto;
   background-color: #222;
   color: aliceblue;
   font-family: "Kameron", "Libre Baskerville", serif;
-  background: url("/hero.3ad8264a.jpg") top center;
+  background: url("/hero.3ad8264a.jpg") center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
 
@@ -132,7 +141,7 @@ h2,
 h3,
 h4,
 nav {
-  font-family: "Rye", "Germania One", cursive;
+  font-family: "Rye", "Germania One", sans-serif;
   color: aliceblue;
 }
 
@@ -148,14 +157,15 @@ p {
 
 .accent-color,
 .card-text {
-  color: #33251f; /* bistre */
+  color: #33251f; 
 }
 
 .accent-text,
-h3.card-title, #body > section > .card-body > h3.card-title,
+h3.card-title,
+#body > section > .card-body > h3.card-title,
 div.more a {
   color: #33251f;
-  font-size: 1.8em;
+  font-size: 3em;
 }
 
 .container a,
@@ -345,7 +355,6 @@ a.menu-link {
   padding: 2em 0 0 0;
 }
 
-
 .card {
   margin-bottom: 10vh !important;
   min-width: 100% !important;
@@ -378,9 +387,9 @@ h2#main-title {
 .section-title > .services-p {
   font-size: 2em;
   color: aliceblue;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   text-align: center;
-  letter-spacing: .025rem;
+  letter-spacing: 0.025rem;
 }
 
 .logo-p {
@@ -435,9 +444,6 @@ div.more a:hover {
 }
 
 #mainMessage {
-  /* font-size: 2rem;
-  margin: 1.5em;
-  padding-bottom: 3em; */
   font-family: "Kameron", "Libre Baskerville", serif;
 }
 
@@ -470,26 +476,21 @@ div.contact-title h2 {
 }
 
 .section-title > .footer-p {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: normal;
   text-transform: uppercase;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
 }
 
-#contact-margin > div > form > div:nth-child(6) > input[type=text-area] {
+#contact-margin > div > form > div:nth-child(6) > input[type="text-area"] {
   padding: 0 0 2.5em 0;
 }
 
 #contact-margin > div > p > a {
-  padding-left: .025rem;
+  padding-left: 0.025rem;
 }
 
-
-
-/*** MEDIA QUERIES ***********************************************
-******************************************************************
-******************************************************************
-******************************************************************/
+/***** MEDIA QUERIES *****/
 
 @media screen and (max-device-width: 1024px) {
   #hero {
@@ -515,7 +516,6 @@ div.contact-title h2 {
 
   #contact-margin {
     margin: 0 1em;
-    /* width: auto; */
   }
 
   .contact-form {
@@ -544,7 +544,6 @@ div.contact-title h2 {
 
   .navbar-brand {
     font-size: 0.75em;
-    /* margin-top: 1rem; */
   }
 
   #main-navbar {
@@ -569,73 +568,65 @@ div.contact-title h2 {
   }
 
   .header-section {
-    padding: .5em 0 0 0;
-    /* margin: .5em 0 4em 0; */
+    padding: 0.5em 0 0 0;
     width: 100vw;
     height: 100vh;
-}
+  }
 }
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .hero-logo h1 {
-      font-size: 4em;
-      margin: 2.5em 0 .3em 0;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .hero-logo h1 {
+    font-size: 4em;
+    margin: 2.5em 0 0.3em 0;
+  }
 
-    h2#main-title {
-      font-size: 2.5em;
-      padding: 1em 0 0 0;
-      margin: 2em 0 0 0 !important;
+  h2#main-title {
+    font-size: 2.5em;
+    padding: 1em 0 0 0;
+    margin: 2em 0 0 0 !important;
   }
 
   .header-section {
-    padding: .5em 0 0 0;
-    margin: .5em 0 3em 0;
+    padding: 0.5em 0 0 0;
+    margin: 0.5em 0 3em 0;
     width: 100vw;
     height: 70vh;
-}
-.accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
-  color: #33251f;
-  font-size: 1.4em;
-}
+  }
+  .accent-text,
+  h3.card-title,
+  #body > section > .card-body > h3.card-title,
+  div.more a {
+    color: #33251f;
+    font-size: 1.4em;
+  }
 
-.card-body {
-  padding: 1em !important;
-  margin: 0 !important;
-}
+  .card-body {
+    padding: 1em !important;
+    margin: 0 !important;
+  }
 
-.container {
-width: 100%;
-padding: 0;
-margin-right: auto;
-margin-left: auto;
-} 
-
-
+  .container {
+    width: 100%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .hero-logo h1 {
-      font-size: 4em;
-      margin: 2.5em 0 .3em 0;
-    }     
-    .header-section {
-      padding: .5em 0 0 0;
-      margin: .5em 0 4em 0;
-      width: 100vw;
-      height: 80vh;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .hero-logo h1 {
+    font-size: 4em;
+    margin: 2.5em 0 0.3em 0;
+  }
+  .header-section {
+    padding: 0.5em 0 0 0;
+    margin: 0.5em 0 4em 0;
+    width: 100vw;
+    height: 80vh;
   }
   .contact-form {
     width: 60% !important;
@@ -655,10 +646,9 @@ margin-left: auto;
 }
 
 @media screen and (max-device-width: 800px) {
-
   h2#main-title {
     font-size: 1.75em;
-    padding: 0 .5em 1em;
+    padding: 0 0.5em 1em;
   }
 
   .contact-form {
@@ -690,12 +680,15 @@ margin-left: auto;
   .section-title > .services-p {
     font-size: 1.5em;
     color: aliceblue;
-    padding: .5em 2em;
+    padding: 0.5em 2em;
     text-align: center;
-    letter-spacing: .025rem;
+    letter-spacing: 0.025rem;
   }
 
-  .accent-text, h3.card-title, #body > section > .card-body > h3.card-title, div.more a {
+  .accent-text,
+  h3.card-title,
+  #body > section > .card-body > h3.card-title,
+  div.more a {
     color: #33251f;
     font-size: 1.8em;
   }
@@ -703,16 +696,16 @@ margin-left: auto;
   .card-body {
     padding: 1em !important;
     margin: 0 !important;
+  }
+
+  .container {
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
-.container {
-  width: 100%;
-  /* padding-right: 15px; */
-  /* padding-left: 15px; */
-  margin-right: auto;
-  margin-left: auto;
-}
-
-}
 
 /*# sourceMappingURL=/main.d2070829.css.map */
