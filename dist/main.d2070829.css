@@ -108,7 +108,7 @@ body {
 
 .header-section {
   padding: 0.5em 0 2em 0;
-  margin: 0.5em 0 4em 0;
+  /* margin: 0.5em 0 4em 0; */
   width: 100vw;
   height: auto;
   background-color: #222;
@@ -353,13 +353,8 @@ a.menu-link {
 }
 
 .card {
-  margin-bottom: 10vh !important;
+  margin: 2vh 0 2vh 0 !important;
   min-width: 100% !important;
-}
-
-.donar_dev {
-  color: aliceblue;
-  text-decoration: none;
 }
 
 a:hover,
@@ -486,10 +481,27 @@ a[href^="tel:"] {
   font-weight: normal;
   text-transform: uppercase;
   padding: 0.5em 1em;
+  margin-bottom: 0.5em;
 }
 
 .footer-p-gold {
   color: #ffc107 !important;
+  padding: 1em 0 0 0;
+}
+
+.donar {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 0.6em;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 0 0 1em 0;
+  margin-bottom: 1em;
+}
+
+.donar_dev {
+  color: antiquewhite;
+  text-decoration: none;
 }
 
 #contact-margin > div > form > div:nth-child(6) > input[type="text-area"] {
@@ -556,9 +568,9 @@ a[href^="tel:"] {
     font-size: 0.75em;
   }
 
-  #main-navbar {
+  /* #main-navbar {
     margin-top: 0.5em;
-  }
+  } */
 
   #contact div.container {
     margin-top: 8vh;
@@ -578,7 +590,7 @@ a[href^="tel:"] {
   }
 
   .header-section {
-    padding: 0.5em 0 0 0;
+    /* padding: 0.5em 0 0 0; */
     width: 100vw;
     height: 100vh;
   }
@@ -633,12 +645,14 @@ a[href^="tel:"] {
     font-size: 4em;
     margin: 2.5em 0 0.3em 0;
   }
+
   .header-section {
     padding: 0.5em 0 0 0;
     margin: 0.5em 0 4em 0;
     width: 100vw;
     height: 80vh;
   }
+
   .contact-form {
     width: 60% !important;
   }
@@ -659,7 +673,7 @@ a[href^="tel:"] {
 @media screen and (max-device-width: 800px) {
   h2#main-title {
     font-size: 1.75em;
-    padding: 0 0.5em 1em;
+    padding: 0;
   }
 
   .contact-form {
