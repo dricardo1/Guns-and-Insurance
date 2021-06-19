@@ -138,7 +138,7 @@ h2,
 h3,
 h4,
 nav {
-  font-family: "Rye", "Germania One", sans-serif;
+  font-family: "Rye", "Germania One", serif;
   color: aliceblue;
 }
 
@@ -364,8 +364,12 @@ a.menu-link {
 
 a:hover,
 a.donar_dev:hover {
-  color: #ffc107;
+  color: #ffc107 !important;
   text-decoration: none;
+}
+
+a.footer-p-gold:hover {
+  color:antiquewhite !important;
 }
 
 h2#main-title {
@@ -427,7 +431,7 @@ h2#main-title {
 
 #contact-section {
   font-size: 2em;
-  margin: 1em auto 0 auto !important;
+  margin: .8em 0 0 0 !important;
   font-family: "Rye", "Germania One", "Lato", sans-serif;
   color: aliceblue;
 }
@@ -458,6 +462,11 @@ div.contact-title h2 {
   padding: 1em 0 0 0;
 }
 
+a[href^="tel:"] {
+  color: #ffc107;
+  text-decoration: none;
+}
+
 .mb-5,
 .my-5 {
   margin-bottom: 2rem !important;
@@ -477,6 +486,10 @@ div.contact-title h2 {
   font-weight: normal;
   text-transform: uppercase;
   padding: 0.5em 1em;
+}
+
+.footer-p-gold {
+  color: #ffc107 !important;
 }
 
 #contact-margin > div > form > div:nth-child(6) > input[type="text-area"] {
@@ -592,6 +605,7 @@ div.contact-title h2 {
     width: 100vw;
     height: 70vh;
   }
+
   .accent-text,
   h3.card-title,
   #body > section > .card-body > h3.card-title,
